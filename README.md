@@ -2,10 +2,13 @@
 
 A utility library to simplify working with Framer Motion animations.
 
+# GITHUB REPO
+[Github] (https://github.com/shivamsinghAIMLops32/shivamsingh97-framer-motion-utils-npm)
+
 ## Installation
 
 ```bash
-npm install @your-username/framer-motion-utils
+npm install shivamsingh97-framer-motion-utils
 ```
 
 ## Usage
@@ -14,7 +17,7 @@ npm install @your-username/framer-motion-utils
 
 ```jsx
 import { motion } from 'framer-motion';
-import { fadeIn, fadeInUp, scaleUp } from '@your-username/framer-motion-utils';
+import { fadeIn, fadeInUp, scaleUp } from 'shivamsingh97-framer-motion-utils';
 
 function MyComponent() {
   return (
@@ -32,7 +35,7 @@ function MyComponent() {
 ### AnimatedContainer Component
 
 ```jsx
-import { AnimatedContainer } from '@your-username/framer-motion-utils';
+import { AnimatedContainer } from 'shivamsingh97-framer-motion-utils';
 
 function MyComponent() {
   return (
@@ -46,7 +49,7 @@ function MyComponent() {
 ### Scroll Animation Hook
 
 ```jsx
-import { useScrollAnimation } from '@your-username/framer-motion-utils';
+import { useScrollAnimation } from 'shivamsingh97-framer-motion-utils';
 
 function MyComponent() {
   const { ref, isInView } = useScrollAnimation();
