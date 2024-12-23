@@ -1,0 +1,29 @@
+{
+  "name": "shivamsingh97-framer-motion-utils",
+  "version": "1.0.0",
+  "description": "Utility library for Framer Motion animations",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": ["framer-motion", "animation", "react"],
+  "author": "Shivam Singh",
+  "license": "MIT",
+  "peerDependencies": {
+    "framer-motion": "^10.0.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "framer-motion": "^10.0.0",
+    "react": "^18.2.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.0.0",
+    "vitest": "^0.34.0"
+  }
+}
