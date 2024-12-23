@@ -1,6 +1,6 @@
 {
   "name": "shivamsingh97-framer-motion-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility library for Framer Motion animations",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
